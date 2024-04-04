@@ -11,6 +11,6 @@ python -m pip install -U jax[cpu]
 # Install requirements
 python -m pip install -r requirements.txt
 # Launch
-python wdv3_jax.py --model swinv2 test.png`
+python wdv3_jax.py --model swinv2 test.jpg`
 
 Included is the tag analisys script to help manage already tagged datasets. 
