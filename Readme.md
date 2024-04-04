@@ -1,6 +1,7 @@
 This is a modified version of wdv3-jax by SmilingWolf that taggs images in a folder and allows the user to delete images based on their tags.
 to install
-# wdv3-jax
+#Windows Install Instructions 
+# Create VENV
 python -m venv .venv
 # Activate it
 source .venvscriptsactivate
@@ -14,3 +15,8 @@ python -m pip install -r requirements.txt
 python wdv3_jax.py --model swinv2 test.jpg`
 
 Included is the tag analisys script to help manage already tagged datasets. 
+
+#Known Issues 
+Only Processes one image at a time 
+Reloads the model on every itteration
+Requires a image to launch
