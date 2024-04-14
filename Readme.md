@@ -2,9 +2,9 @@ This is a modified version of wdv3-jax by SmilingWolf that taggs images in a fol
 to install
 #Windows Install Instructions 
 # Create VENV
-python -m venv .venv
+python -m venv venv
 # Activate it
-source .venvscriptsactivate
+source .\venv\scripts\activate
 # Upgrade pipsetuptoolswheel
 python -m pip install -U pip setuptools wheel
 # At this point, optionally you can install JAX manually (e.g. if you are using an nVidia GPU)
